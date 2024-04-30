@@ -1,0 +1,125 @@
+
+.footer_block{
+    background-color: #ffffff;
+    width:1360px;
+    height:948px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    padding: 0px 40px 80px 40px;
+    gap: 40px;
+
+}
+
+.footername {
+    background-color: #F1F3F4;
+    font-size: 64px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #282828;
+
+}
+
+.info {
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+#phone {
+    width:716px;
+    padding: 32px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F3F4;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    gap: 16px 16px;
+}
+
+#phone_number {
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #282828;
+}
+
+#socials {
+    background-color: rgb(68, 113, 68);
+    width:484px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #8B8B8B;
+    padding: 32px;
+    background-color: #F1F3F4;
+    border-radius: 12px;    
+    gap: 16px 16px;
+    
+}
+#instagram, #whatsup {
+    width: 43px;
+    height: 43px;
+    padding-right:16px;
+}
+
+#address {
+    background-color: #F1F3F4;
+    display: flex;
+    width:716px;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #8B8B8B;
+    padding: 32px;
+    border-radius: 12px;
+    
+    gap: 16px;
+}
+
+#address_street {
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #282828;
+    
+}
+
+#working_hours {
+    background-color: #F1F3F4;  
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #8B8B8B;
+    padding: 32px;
+    border-radius: 12px;
+    width:484px;
+    height: 130px;
+    gap: 16px;
+}
+#working_hours_text {   
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #282828;
+}
+
+.map {
+    border-radius: 12px;
+}
+
+#company_location {
+    width:1360px;
+    height:350px;
+}
